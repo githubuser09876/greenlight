@@ -1,0 +1,6 @@
+# Address to listen on. Prometheus should be told to scrape this.
+listen_addr = ":8000"
+
+# Expvar target.
+[server]
+url = "http://localhost:4000/debug/vars"
